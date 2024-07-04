@@ -1,0 +1,13 @@
+https://github.com/soumyajit4419/Portfolio
+https://soumyajit.vercel.app/
+
+https://github.com/said7388/developer-portfolio
+https://www.abusaid.me/
+
+https://github.com/jitendraKhadoliya/personal-portfolio
+https://jitendra-khadoliya.netlify.app/
+
+Observações:
+Botar bandeirinha nas línguas
+Switch button for dark mode
+m2_sprint4_entrega_open-music-henriquesiqueira dark mode

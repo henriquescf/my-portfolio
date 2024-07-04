@@ -1,0 +1,22 @@
+{
+    "header": {
+        "a1": "Sobre",
+        "a2": "Experiência",
+        "a3": "Habilidades",
+        "a4": "Educação",
+        "a5": "Blogs",
+        "a6": "Projetos"
+    },
+
+    "home": {
+        "bannerSection": {
+            "name": "nome",
+            "skills": "habilidades",
+            "hardworker": "trabalhaDuro",
+            "quicklearner": "aprendeRapido",
+            "problemsolver": "resolveProblemas",
+            "hireable": "contratavel",
+            "true": "verdadeiro"
+        }
+    }
+}

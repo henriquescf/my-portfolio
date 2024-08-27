@@ -88,3 +88,11 @@ body{
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
 }
+
+.project__button-icon {
+    transition: 0.4s;
+}
+
+.project__button:hover .project__button-icon {
+    transform: translateX(0.25rem);
+}

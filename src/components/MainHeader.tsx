@@ -28,7 +28,7 @@ export const MainHeader = () => {
             </div>
 
             <nav className="flex items-center gap-10">
-                <a className='navOption'>{t("header.a1")}</a>
+                <a href="#about-section" className='navOption'>{t("header.a1")}</a>
                 <a className='navOption'>{t("header.a2")}</a>
                 <a className='navOption'>{t("header.a3")}</a>
                 <a className='navOption'>{t("header.a4")}</a>

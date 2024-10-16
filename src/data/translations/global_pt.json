@@ -1,22 +1,162 @@
 {
     "header": {
         "a1": "Sobre",
-        "a2": "Experiência",
+        "a2": "Experiências",
         "a3": "Habilidades",
-        "a4": "Educação",
-        "a5": "Blogs",
-        "a6": "Projetos"
+        "a4": "Projetos",
+        "a5": "Recomendações",
+        "a6": "Contato"
     },
 
     "home": {
         "bannerSection": {
-            "name": "nome",
-            "skills": "habilidades",
-            "hardworker": "trabalhaDuro",
-            "quicklearner": "aprendeRapido",
-            "problemsolver": "resolveProblemas",
-            "hireable": "contratavel",
-            "true": "verdadeiro"
+            "welcome": {
+                "introduction": "Olá, eu sou Henrique Siqueira",
+                "description": "Um desenvolvedor apaixonado, tenho experiência no desenvolvimento web completo e em aplicações mobile.",
+                "b1": "ME CONTATE",
+                "b2": "CURRÍCULO"
+            },
+
+            "code": {
+                "name": "nome",
+                "skills": "habilidades",
+                "hardworker": "trabalhaDuro",
+                "quicklearner": "aprendeRapido",
+                "problemsolver": "resolveProblemas",
+                "hireable": "contratavel",
+                "true": "verdadeiro"
+            }
+        },
+
+        "aboutSection": {
+            "title": "QUEM SOU EU?",
+            "title2": "SOBRE MIM",
+            "description": "Meu nome é HENRIQUE SIQUEIRA. Eu sou um programador profissional e dedicado no meu dia-a-dia. Costumo ter facilidade e aprendizado rápido. Amo aprender e explorar novas tecnologias e busco sempre ser perfeccionista nos meus códigos e também na resolução de problemas. Minhas maiores habilidades são baseadas em Javascript, dominando tanto o Frontend como o Backend. Eu estou disponível para qualquer tipo de oportunidade de trabalho que se adeque as minhas habilidades e interesses."
+        },
+        
+        "experienceSection": {
+
+            "title": "Experiências",
+            "experienceData": [
+                {
+                    "id": 1,
+                    "title": "Front End I PT",
+                    "company": "Teton Private Ltd.",
+                    "duration": "(Jan 2022 - Present)"
+                },
+                {
+                    "id": 2,
+                    "title": "FULL STACK DEVELOPER PT",
+                    "company": "Fiverr (freelance)",
+                    "duration": "(Jun 2021 - Jan 2022)"
+                },
+                {
+                    "id": 3,
+                    "title": "SELF EMPLOYED PT",
+                    "company": "Code and building something everyday.",
+                    "duration": "(Jan 2018 - Present)"
+                }
+            ]
+        },
+
+        "skillsSection": {
+            "title": "Habilidades"
+        },
+
+        "projectsSection": {
+            "title": "PROJETOS",
+            "b1": "Saiba mais",
+            "projectsData": [
+                {
+                    "id": 0,
+                    "image": "/src/assets/projects/idiomas.jpg",
+                    "title": "Projeto Freelance: Curso de Idiomas",
+                    "description": "Curso de línguas, responsivo. Frontend elaborado com TypeScript/React/TailwindCSS e fidedigno a projeto figma.",
+                    "link": "https://liber-app-silk.vercel.app/"
+                },
+                {
+                    "id": 1,
+                    "image": "/src/assets/projects/burger.jpg",
+                    "title": "Hamburgueria: Cardápio Digital",
+                    "description": "Cardápio Digital de hamburgueria, responsivo e com carrinho. Frontend criado com base em HTML/Javascript/SCSS.",
+                    "link": "https://hamburgueria-app.vercel.app/"
+                },
+                {
+                    "id": 2,
+                    "image": "/src/assets/projects/hub.avif",
+                    "title": "HUB: Dashboard com sistema de login via API",
+                    "description": "Sistema de login e dashboard. Backend em Express para API e HTML/Javascript/SCSS para o frontend.",
+                    "link": "https://kenziehub-blush.vercel.app/"
+                },
+                {
+                    "id": 3,
+                    "image": "/src/assets/projects/carshop.jpg",
+                    "title": "API/Prisma: Catálogo de Carros com PRISMA",
+                    "description": "API de catálogo carros para uma concessionária. Criado com base em backend com EXPRESS e PRISMA.",
+                    "link": "https://github.com/henriquescf/api-catalogo-carros"
+                },
+                {
+                    "id": 4,
+                    "image": "/src/assets/projects/fashionstore.jpg",
+                    "title": "Projeto Freelance: Fashion Store",
+                    "description": "Loja de moda, responsivo e com carrinho. Frontend elaborado com HTML/Javascript/SCSS.",
+                    "link": "https://github.com/Kenzie-Academy-Brasil-Developers/m3_s7_entrega_fashion-store-henriquesiqueira--"
+                },
+                {
+                    "id": 5,
+                    "image": "/src/assets/projects/fashionstore.jpg",
+                    "title": "Projeto Pessoal: Portfólio",
+                    "description": "Meu portfólio, responsivo. Frontend elaborado com HTML/Typescript/React/TailwindCSS dentre outras ferramentas.",
+                    "link": "https://github.com/henriquescf/my-portfolio"
+                },
+                {
+                    "id": 6,
+                    "image": "/src/assets/projects/codegif.gif",
+                    "title": "Conheça todos os meus projetos",
+                    "description": "Github com meus projetos disponíveis para publicidade.",
+                    "link": "https://github.com/henriquescf"
+                }
+              ]
+        },
+
+        "testimonySection": {
+            "title": "O que falam sobre mim",
+            "testimonyData": [
+                {
+                    "id": 1,
+                    "description": "“Henrique é um profissional fullstack muito empenhado em seus projetos. Já tive a oportunidade de visualizar seus códigos e todos estavam de acordo com as melhores práticas.”",
+                    "author": "Wellington Oliveira",
+                    "job": "Desenvolvedor de Software Júnior",
+                    "image": "/src/assets/testimonials/testimonial3.jpg"
+                },
+                {
+                    "id": 2,
+                    "description": "“Desenvolvedor excelente! Comunicativo, capacitado e soube trabalhar muito bem em equipe. Conheço há anos e sempre acompanhei a sua evolução.”",
+                    "author": "Miguel Martins",
+                    "job": "Consultor de Soluções Tecnológicas",
+                    "image": "/src/assets/testimonials/testimonial2.jpg"
+                },
+                {
+                    "id": 3,
+                    "description": "“Fez um trabalho muito competente e eficaz. É um cara que realmente sabe o que faz e que sempre corre atrás buscando o necessário para cumprir o que foi solicitado.”",
+                    "author": "Sheilla Andrade",
+                    "job": "Cliente Freelancer",
+                    "image": "/src/assets/testimonials/testimonial3.jpg"
+                }
+            ]
+        },
+
+        "contactSection": {
+            "title": "ENTRE EM CONTATO COMIGO",
+            "title2": "CONTATO",
+            "i1": "Nome",
+            "i2": "E-mail",
+            "i3": "Mensagem",
+            "b1": "ENVIAR MENSAGEM"
         }
+    },
+
+    "footer": {
+        "description": "© Developer Portfolio por"
     }
 }

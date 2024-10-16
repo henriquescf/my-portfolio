@@ -1,21 +1,26 @@
-import { projectsData } from "../../../data/projects-data"
+import { useTranslation } from "react-i18next"
 import { ProjectsCard } from "./ProjectsCard"
 
 export const ProjectsSection = () => {
+    const [ t ] = useTranslation("global")
+    const projects = t('home.projectsSection.projectsData', {returnObjects: true})
+
     return (
-        <section id="projects-section" className="relative z-50 border-t my-12 lg:my-24">
+        <section id="projects-section" className="relative">
             <div>
-                <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl opacity-30"></div>
+                <div className="w-[80px] h-[80px] bg-violet-100 rounded-full absolute -top-3 left-[3%] -translate-x-1/2 filter blur-3xl opacity-30"></div>
                 <div className="flex items-center justify-start relative">
-                    <span className="bg-[#1a1443] absolute left-0  w-fit text-white px-5 py-3 text-xl rounded-md">PROJECTS</span>
+                    <span className="bg-[#1a1443] absolute left-0 w-fit text-white px-5 py-3 text-xl rounded-md">{t('home.projectsSection.title')}</span>
                     <span className="w-full h-[2px] bg-[#1a1443]"></span>
                 </div>
             </div>
 
-            <ul className="mt-[3.125rem] flex flex-wrap items-center">
-                {projectsData.map((item, index) => {
+            <ul className="flex flex-wrap gap-10 mt-12 lg:mt-24 justify-center">
+                {
+                // @ts-ignore
+                projects.map((project, index) => {
                     return (
-                        <ProjectsCard {...{item}} {...{index}}/>
+                        <ProjectsCard {...{project}} {...{index}} key={index} {...{t}}/>
                     )
                 })}
             </ul>

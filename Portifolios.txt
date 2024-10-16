@@ -7,7 +7,44 @@ https://www.abusaid.me/
 https://github.com/jitendraKhadoliya/personal-portfolio
 https://jitendra-khadoliya.netlify.app/
 
-Observações:
-Botar bandeirinha nas línguas
-Switch button for dark mode
-m2_sprint4_entrega_open-music-henriquesiqueira dark mode
+https://www.oerebor.dev/
+
+observações:
+
+ajeitar textos do testimonial e dos projetos (en/pt)
+ajeitar botao dos projetos
+ajeitar projetos (upar o da fashionstore e corrigir/verificar o código dos outros, tirar links da liber por exemplo)
+ajeitar botao de subir scroll pro inicio no mobile q n ta aparecendo
+mudar cores/ajeitar dark mode (verificar tailwind darkmode se n é mais eficiente)
+conferir mobile version
+fazer curriculo/upar no site
+utilizar .dev (www.xxx.dev)
+
+
+GITHUB SOBRE MIM
+Tecnologias, frameworks e ferramentas
+
+const mySelf = {
+    graduate: 'Sistemas de informação',
+    typeDeveloper: ['Frontend', 'Fullstack'],
+    programmingLanguages: [
+      'Javascript', 
+      'Typescript',    
+      'Python',      
+    ],
+    frontEndFrameworks: [
+      'Material UI', 
+      'Native Base',          
+      'Tailwind CSS', 
+      'Bootstrap'  
+    ],
+    uiLibrarys: ['Styled Components','ReactJS', 'Knockout.js', 'Radix UI', 'Tailwind'],
+    frameworks: ['Python Django', 'Django REST', 'Next.JS', 'React Native', 'Sveltekit'],
+    backendSkills: ['Node.Js', 'Python Django'],   
+    cloudDatabases: ['Amazon Web Services', 'Google Cloud Services', 'MongoDB Atlas', 'Firestore']
+  }
+
+  https://github.com/Glaysonvisgueira/glaysonvisgueira
+
+
+  white mode: shadow-[.5rem_.5rem_0_.125rem_#11152c,0_0_0_.125rem_#11152c,.5rem_.5rem_1rem_.25rem_rgba(0,0,0,.22)] rounded-xl

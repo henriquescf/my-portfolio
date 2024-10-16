@@ -4,24 +4,19 @@ import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 
 export const BannerSection = () => {
-
     const[ t ] = useTranslation("global")
 
     return(
         <section className='grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8 my-12'>
             <img src="main.svg" className="absolute top-[0rem] -z-10"/>
             <div className='order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10 text-3xl gap-10'>
-                <p className='font-extrabold'>Hello,
-                    <br/>
-                    This is HENRIQUE SIQUEIRA,
-                    i'm a Professional
+                <p className='font-extrabold'>
+                    {t("home.bannerSection.welcome.introduction")}
                     <br/>
                     <TypeAnimation
                     sequence={[
                         'Full Stack Developer', // Types 'One'
                         2000, // Waits 1s
-                        'Freelancer',
-                        2000,
                     ]}
                     wrapper="span"
                     speed={{type: 'keyStrokeDelayInMs', value: 200}}
@@ -31,16 +26,16 @@ export const BannerSection = () => {
                     />
                 </p>
 
-                <p className='text-xl'>A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.</p>
+                <p className='text-xl'>{t("home.bannerSection.welcome.description")}</p>
 
                 <div className="flex items-center gap-5">
                     <button className="px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white md:font-semibold main-button flex gap-2">
-                        <span>Contact me</span>
+                        <span>{t("home.bannerSection.welcome.b1")}</span>
                         <RiContactsFill size={16} className='mt-[0.125rem]'/>
                     </button>
 
                     <button className="px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white  md:font-semibold main-button flex gap-2">
-                        <span>Get Resume</span>
+                        <span>{t("home.bannerSection.welcome.b2")}</span>
                         <MdDownload size={16} className='mt-[0.125rem]'/>
                     </button>
           </div>
@@ -70,14 +65,14 @@ export const BannerSection = () => {
                         </p>
 
                         <p>
-                            <span className='ml-4 lg:ml-8 mr-2 text-white'>{t("home.bannerSection.name")}:</span>
+                            <span className='ml-4 lg:ml-8 mr-2 text-white'>{t("home.bannerSection.code.name")}:</span>
                             <span className='text-gray-400'>'</span>
                             <span className='text-amber-300'>Henrique Siqueira</span>
                             <span className='text-gray-400'>',</span>
                         </p>
 
                         <p className='ml-4 lg:ml-8 mr-2'>
-                            <span className=" text-white">{t("home.bannerSection.skills")}:</span>
+                            <span className=" text-white">{t("home.bannerSection.code.skills")}:</span>
                             <span className="text-gray-400">{` ['`}</span>
                             <span className="text-amber-300">React</span>
                             <span className="text-gray-400">', '</span>
@@ -100,25 +95,25 @@ export const BannerSection = () => {
                         </p>
 
                         <p>
-                            <span className="ml-4 lg:ml-8 mr-2 text-white">{t("home.bannerSection.hardworker")}:</span>
-                            <span className="text-orange-400">{t("home.bannerSection.true")}</span>
+                            <span className="ml-4 lg:ml-8 mr-2 text-white">{t("home.bannerSection.code.hardworker")}:</span>
+                            <span className="text-orange-400">{t("home.bannerSection.code.true")}</span>
                             <span className="text-gray-400">,</span>
                         </p>
 
                         <p>
-                            <span className="ml-4 lg:ml-8 mr-2 text-white">{t("home.bannerSection.quicklearner")}:</span>
-                            <span className="text-orange-400">{t("home.bannerSection.true")}</span>
+                            <span className="ml-4 lg:ml-8 mr-2 text-white">{t("home.bannerSection.code.quicklearner")}:</span>
+                            <span className="text-orange-400">{t("home.bannerSection.code.true")}</span>
                             <span className="text-gray-400">,</span>
                         </p>
 
                         <p>
-                            <span className="ml-4 lg:ml-8 mr-2 text-white">{t("home.bannerSection.problemsolver")}:</span>
-                            <span className="text-orange-400">{t("home.bannerSection.true")}</span>
+                            <span className="ml-4 lg:ml-8 mr-2 text-white">{t("home.bannerSection.code.problemsolver")}:</span>
+                            <span className="text-orange-400">{t("home.bannerSection.code.true")}</span>
                             <span className="text-gray-400">,</span>
                         </p>
 
                         <p>
-                            <span className="ml-4 lg:ml-8 mr-2 text-green-400">{t("home.bannerSection.hireable")}:</span>
+                            <span className="ml-4 lg:ml-8 mr-2 text-green-400">{t("home.bannerSection.code.hireable")}:</span>
                             <span className="text-orange-400">function</span>
                             <span className="text-gray-400">{`() {`}</span>
                         </p>
@@ -130,19 +125,19 @@ export const BannerSection = () => {
 
                         <p>
                             <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                            <span className="mr-2 text-white">{t("home.bannerSection.hardworker")}</span>
+                            <span className="mr-2 text-white">{t("home.bannerSection.code.hardworker")}</span>
                             <span className="text-amber-300">&amp;&amp;</span>
                         </p>
 
                         <p>
                             <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                            <span className="mr-2 text-white">{t("home.bannerSection.problemsolver")}</span>
+                            <span className="mr-2 text-white">{t("home.bannerSection.code.problemsolver")}</span>
                             <span className="text-amber-300">&amp;&amp;</span>
                         </p>
                         
                         <p>
                             <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
-                            <span className="mr-2 text-white">{t("home.bannerSection.skills")}.length</span>
+                            <span className="mr-2 text-white">{t("home.bannerSection.code.skills")}.length</span>
                             <span className="mr-2 text-amber-300">&gt;=</span>
                             <span className="text-orange-400">5</span>
                         </p>

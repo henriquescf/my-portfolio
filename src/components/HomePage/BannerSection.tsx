@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
-import { TypeAnimation } from 'react-type-animation';
 import { MdDownload } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
+import { ReactTyped } from 'react-typed';
 
 export const BannerSection = () => {
     const[ t ] = useTranslation("global")
@@ -13,17 +13,12 @@ export const BannerSection = () => {
                 <p className='font-extrabold'>
                     {t("home.bannerSection.welcome.introduction")}
                     <br/>
-                    <TypeAnimation
-                    sequence={[
-                        'Full Stack Developer', // Types 'One'
-                        2000, // Waits 1s
-                    ]}
-                    wrapper="span"
-                    speed={{type: 'keyStrokeDelayInMs', value: 200}}
-                    cursor={false}
-                    repeat={Infinity}
-                    style={{ display: 'inline-block', font: "700"}}
-                    className='text-[#6507f9] dark:text-[#16f2b3]'
+                    <ReactTyped
+                        strings={[
+                            'Full Stack Developer'
+                        ]}
+                        typeSpeed={100}
+                        className='text-[#6507f9] dark:text-[#16f2b3]'
                     />
                 </p>
 

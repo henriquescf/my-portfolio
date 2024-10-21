@@ -19,7 +19,7 @@ export const ProjectsSection = () => {
       </div>
 
       <ul className="gap-10 mt-12 lg:mt-24">
-        <Swiper navigation={true} pagination={{clickable: true}} keyboard={true} modules={[Navigation, Pagination, Keyboard]}>
+        <Swiper navigation={true} pagination={{clickable: true}} keyboard={true} modules={[Navigation, Pagination, Keyboard]} speed={600}>
           {
           // @ts-ignore
           projects.map((project, index) => {

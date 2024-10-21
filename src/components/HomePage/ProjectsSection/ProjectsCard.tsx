@@ -3,7 +3,7 @@ export const ProjectsCard = (props: any) => {
     return (
 
         <li className="flex overflow-hidden max-w-[60rem] rounded-lg items-center m-auto gap-12">
-            <img className="rounded-t-lg w-[23.875rem] h-[14.625rem]" src={props.project.image} alt="project-img" />
+            <img className="rounded-lg w-[23.875rem] h-[14.625rem]" src={props.project.image} alt="project-img" />
 
             {/* Right Side */}
             <div className="flex flex-col gap-2">

@@ -7,20 +7,3 @@ kenzie/harvard/rural?
 fazer curriculo/upar no site
 utilizar .dev (www.xxx.dev)
 teste lighthouse https://developer.chrome.com/docs/lighthouse/overview?hl=pt-br
-
-
-{
-    "id": 5,
-    "image": "/src/assets/projects/portfolio.jpg",
-    "title": "Projeto Pessoal: Portfólio Desenvolvedor",
-    "description": "Meu portfólio, responsivo. Frontend elaborado com HTML/Typescript/React/TailwindCSS dentre outras ferramentas.",
-    "link": "https://github.com/henriquescf/my-portfolio"
-},
-
-{
-    "id": 5,
-    "image": "/src/assets/projects/portfolio.webp",
-    "title": "Personal Project: Portfolio",
-    "description": "My portfolio, responsive. Frontend developed with HTML/Typescript/React/TailwindCSS among other tools.",
-    "link": "https://github.com/henriquescf/my-portfolio"
-},

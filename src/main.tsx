@@ -3,7 +3,12 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './assets/styles/reset.scss'
 import './assets/styles/global.scss'
+import './assets/styles/extra.scss'
 import './assets/styles/glows.scss'
+import 'react-toastify/dist/ReactToastify.css'
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 import { IsDarkModeProvider } from './providers/ThemeProvider.tsx'
 import { IsLanguagePtProvider } from './providers/LanguageProvider.tsx'
 import { I18nextProvider } from 'react-i18next';

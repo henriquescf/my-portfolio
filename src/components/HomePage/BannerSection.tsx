@@ -7,7 +7,7 @@ export const BannerSection = () => {
     const[ t ] = useTranslation("global")
 
     return(
-        <section className='grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8 my-12'>
+        <section className='grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8 my-12 text-black dark:text-white'>
             <img src="main.svg" className="absolute top-[0rem] -z-10"/>
             <div className='order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10 text-3xl gap-10'>
                 <p className='font-extrabold'>
@@ -22,7 +22,8 @@ export const BannerSection = () => {
                     speed={{type: 'keyStrokeDelayInMs', value: 200}}
                     cursor={false}
                     repeat={Infinity}
-                    style={{ display: 'inline-block', color: "#16f2b3", font: "700"}}
+                    style={{ display: 'inline-block', font: "700"}}
+                    className='text-[#6507f9] dark:text-[#16f2b3]'
                     />
                 </p>
 
@@ -76,21 +77,21 @@ export const BannerSection = () => {
                             <span className="text-gray-400">{` ['`}</span>
                             <span className="text-amber-300">React</span>
                             <span className="text-gray-400">', '</span>
-                            <span className="text-amber-300">NextJS</span>
+                            <span className="text-amber-300">Javascript</span>
                             <span className="text-gray-400">', '</span>
-                            <span className="text-amber-300">Redux</span>
+                            <span className="text-amber-300">Typescript</span>
+                            <span className="text-gray-400">', '</span>
+                            <span className="text-amber-300">NextJS</span>
                             <span className="text-gray-400">', '</span>
                             <span className="text-amber-300">Express</span>
                             <span className="text-gray-400">', '</span>
-                            <span className="text-amber-300">NestJS</span>
+                            <span className="text-amber-300">Prisma</span>
                             <span className="text-gray-400">', '</span>
-                            <span className="text-amber-300">MySql</span>
+                            <span className="text-amber-300">Python</span>
                             <span className="text-gray-400">', '</span>
-                            <span className="text-amber-300">MongoDB</span>
+                            <span className="text-amber-300">Django</span>
                             <span className="text-gray-400">', '</span>
-                            <span className="text-amber-300">Docker</span>
-                            <span className="text-gray-400">', '</span>
-                            <span className="text-amber-300">AWS</span>
+                            <span className="text-amber-300">Tailwind</span>
                             <span className="text-gray-400">{`'],`}</span>
                         </p>
 

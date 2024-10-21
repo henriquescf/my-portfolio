@@ -8,7 +8,6 @@ import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
 import { FaStackOverflow } from "react-icons/fa";
 import { TbMailForward } from "react-icons/tb";
-// import { FaXTwitter } from "react-icons/fa6";
 import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
 import { personalData } from "../../data/personalData.ts";
@@ -18,7 +17,7 @@ export const ContactSection = () => {
 
     const contactSchema = z.object({
         name: z.string().min(1, "Por favor, preencha o campo."),
-        email: z.string().email("Por favor, insira um endereço de email válido"),
+        email: z.string().email("Por favor, insira um endereço de email válido."),
         message: z.string().min(1, "Por favor, preencha o campo.")
     })
 
@@ -27,14 +26,14 @@ export const ContactSection = () => {
     const contactSubmit = (data: any) => {
         contactUsSheet(data)
         reset()
-        toast.success("Seu contato foi enviado com sucesso! Em breve entraremos em contato.")
+        toast.success("Sua mensagem foi enviada com sucesso!")
     }
 
     const [ t ] = useTranslation("global")
 
     return (
         <section id="contact-section">
-            <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">{t('home.contactSection.title')}</p>
+            <p className="font-medium inline-block bg-clip-text text-transparent bg-[linear-gradient(266.11deg,_#ec4899_32.06%,_#7c3aed_63.03%)] dark:text-white text-xl uppercase">{t('home.contactSection.title')}</p>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 my-12 lg:my-16 relative items-center">
                 <div className="hidden lg:flex flex-col items-center absolute top-16 -right-8">
@@ -54,7 +53,7 @@ export const ContactSection = () => {
                         {errors.name &&
                         <div className="mt-[-1.25rem] flex gap-2 items-center">
                             <RiErrorWarningFill size={24} color="#e97b19"/>
-                            <span className="text-[rgba(67,_67,_67,_1)]">{errors.name.message}</span>
+                            <span className="text-[rgba(67,_67,_67,_1)] dark:text-white">{errors.name.message}</span>
                         </div>
                         }
 
@@ -66,7 +65,7 @@ export const ContactSection = () => {
                         {errors.email &&
                         <div className="mt-[-1.25rem] flex gap-2 items-center">
                             <RiErrorWarningFill size={24} color="#e97b19"/>
-                            <span className="text-[rgba(67,_67,_67,_1)]">{errors.email.message}</span>
+                            <span className="text-[rgba(67,_67,_67,_1)] dark:text-white">{errors.email.message}</span>
                         </div>
                         }
 
@@ -78,7 +77,7 @@ export const ContactSection = () => {
                         {errors.message &&
                         <div className="mt-[-1.25rem] flex gap-2 items-center">
                             <RiErrorWarningFill size={24} color="#e97b19"/>
-                            <span className="text-[rgba(67,_67,_67,_1)]">{errors.message.message}</span>
+                            <span className="text-[rgba(67,_67,_67,_1)] dark:text-white">{errors.message.message}</span>
                         </div>
                         }
 
@@ -90,18 +89,18 @@ export const ContactSection = () => {
                 </div>
 
                 {/* Right Side */}
-                <div className="lg:w-3/4 ">
+                <div className="lg:w-3/4 text-black dark:text-white">
                     <div className="flex flex-col gap-5 lg:gap-9">
                         <p className="text-sm md:text-xl flex items-center gap-3">
                         <MdAlternateEmail
-                            className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                            className="bg-[#8b98a5] p-2 rounded-full hover:bg-opacity-[.7] dark:hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                             size={36}
                         />
                         <span>{personalData.email}</span>
                         </p>
                         <p className="text-sm md:text-xl flex items-center gap-3">
                         <IoMdCall
-                            className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                            className="bg-[#8b98a5] p-2 rounded-full hover:bg-opacity-[.7] dark:hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                             size={36}
                         />
                         <span>
@@ -110,7 +109,7 @@ export const ContactSection = () => {
                         </p>
                         <p className="text-sm md:text-xl flex items-center gap-3">
                         <CiLocationOn
-                            className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                            className="bg-[#8b98a5] p-2 rounded-full hover:bg-opacity-[.7] dark:hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                             size={36}
                         />
                         <span>
@@ -121,25 +120,19 @@ export const ContactSection = () => {
                     <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">
                         <a target="_blank" href={personalData.github}>
                         <IoLogoGithub
-                            className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                            className="bg-[#8b98a5] p-3 rounded-full hover:bg-opacity-[.7] dark:hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                             size={48}
                         />
                         </a>
                         <a target="_blank" href={personalData.linkedIn}>
                         <BiLogoLinkedin
-                            className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                            className="bg-[#8b98a5] p-3 rounded-full hover:bg-opacity-[.7] dark:hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                             size={48}
                         />
                         </a>
-                        {/* <a target="_blank" href={personalData.twitter}>
-                        <FaXTwitter
-                            className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                            size={48}
-                        />
-                        </a> */}
                         <a target="_blank" href={personalData.stackOverflow}>
                         <FaStackOverflow
-                            className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                            className="bg-[#8b98a5] p-3 rounded-full hover:bg-opacity-[.7] dark:hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                             size={48}
                         />
                         </a>

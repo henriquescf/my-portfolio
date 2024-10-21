@@ -1,3 +1,4 @@
+import i18next from "i18next";
 import { createContext, useContext } from "react";
 import useLocalStorage from "use-local-storage";
 
@@ -9,9 +10,12 @@ export const useIsLanguagePtContext = () => {
 
 export const IsLanguagePtProvider = ({children}: any) => {
     const [isLanguagePt, setLanguagePt] = useLocalStorage("isLanguagePt", true);
+    const toggleLanguage = (lang: string) => {
+        i18next.changeLanguage(lang)
+    }
 
     return(
-        <IsLanguagePtContext.Provider value={{isLanguagePt, setLanguagePt}}>
+        <IsLanguagePtContext.Provider value={{isLanguagePt, setLanguagePt, toggleLanguage}}>
             {children}
         </IsLanguagePtContext.Provider>
     )

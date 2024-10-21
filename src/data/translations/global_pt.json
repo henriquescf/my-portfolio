@@ -65,7 +65,7 @@
 
         "projectsSection": {
             "title": "PROJETOS",
-            "b1": "Saiba mais",
+            "b1": "Demo",
             "projectsData": [
                 {
                     "id": 0,
@@ -104,8 +104,8 @@
                 },
                 {
                     "id": 5,
-                    "image": "/src/assets/projects/fashionstore.jpg",
-                    "title": "Projeto Pessoal: Portfólio",
+                    "image": "/src/assets/projects/portfolio.jpg",
+                    "title": "Projeto Pessoal: Portfólio Desenvolvedor",
                     "description": "Meu portfólio, responsivo. Frontend elaborado com HTML/Typescript/React/TailwindCSS dentre outras ferramentas.",
                     "link": "https://github.com/henriquescf/my-portfolio"
                 },
@@ -141,7 +141,7 @@
                     "description": "“Fez um trabalho muito competente e eficaz. É um cara que realmente sabe o que faz e que sempre corre atrás buscando o necessário para cumprir o que foi solicitado.”",
                     "author": "Sheilla Andrade",
                     "job": "Cliente Freelancer",
-                    "image": "/src/assets/testimonials/testimonial3.jpg"
+                    "image": "/src/assets/testimonials/testimonial1.jpg"
                 }
             ]
         },

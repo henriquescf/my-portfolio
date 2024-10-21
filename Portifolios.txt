@@ -1,50 +1,26 @@
-https://github.com/soumyajit4419/Portfolio
-https://soumyajit.vercel.app/
-
-https://github.com/said7388/developer-portfolio
-https://www.abusaid.me/
-
-https://github.com/jitendraKhadoliya/personal-portfolio
-https://jitendra-khadoliya.netlify.app/
-
-https://www.oerebor.dev/
-
 observações:
 
-ajeitar textos do testimonial e dos projetos (en/pt)
-ajeitar botao dos projetos
-ajeitar projetos (upar o da fashionstore e corrigir/verificar o código dos outros, tirar links da liber por exemplo)
+conferir mobile version toda
 ajeitar botao de subir scroll pro inicio no mobile q n ta aparecendo
-mudar cores/ajeitar dark mode (verificar tailwind darkmode se n é mais eficiente)
-conferir mobile version
+ajeitar projetos (upar o da fashionstore e corrigir/verificar o código dos outros, tirar links da liber por exemplo)
+kenzie/harvard/rural?
 fazer curriculo/upar no site
 utilizar .dev (www.xxx.dev)
+teste lighthouse https://developer.chrome.com/docs/lighthouse/overview?hl=pt-br
 
 
-GITHUB SOBRE MIM
-Tecnologias, frameworks e ferramentas
+{
+    "id": 5,
+    "image": "/src/assets/projects/portfolio.jpg",
+    "title": "Projeto Pessoal: Portfólio Desenvolvedor",
+    "description": "Meu portfólio, responsivo. Frontend elaborado com HTML/Typescript/React/TailwindCSS dentre outras ferramentas.",
+    "link": "https://github.com/henriquescf/my-portfolio"
+},
 
-const mySelf = {
-    graduate: 'Sistemas de informação',
-    typeDeveloper: ['Frontend', 'Fullstack'],
-    programmingLanguages: [
-      'Javascript', 
-      'Typescript',    
-      'Python',      
-    ],
-    frontEndFrameworks: [
-      'Material UI', 
-      'Native Base',          
-      'Tailwind CSS', 
-      'Bootstrap'  
-    ],
-    uiLibrarys: ['Styled Components','ReactJS', 'Knockout.js', 'Radix UI', 'Tailwind'],
-    frameworks: ['Python Django', 'Django REST', 'Next.JS', 'React Native', 'Sveltekit'],
-    backendSkills: ['Node.Js', 'Python Django'],   
-    cloudDatabases: ['Amazon Web Services', 'Google Cloud Services', 'MongoDB Atlas', 'Firestore']
-  }
-
-  https://github.com/Glaysonvisgueira/glaysonvisgueira
-
-
-  white mode: shadow-[.5rem_.5rem_0_.125rem_#11152c,0_0_0_.125rem_#11152c,.5rem_.5rem_1rem_.25rem_rgba(0,0,0,.22)] rounded-xl
+{
+    "id": 5,
+    "image": "/src/assets/projects/portfolio.webp",
+    "title": "Personal Project: Portfolio",
+    "description": "My portfolio, responsive. Frontend developed with HTML/Typescript/React/TailwindCSS among other tools.",
+    "link": "https://github.com/henriquescf/my-portfolio"
+},

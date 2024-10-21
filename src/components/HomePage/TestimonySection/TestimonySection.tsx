@@ -12,7 +12,7 @@ export const TestimonySection = () => {
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="flex flex-col items-center">
                     <div className="text-center">
-                        <h2 className="mt-4 text-3xl font-bold text-white sm:text-4xl xl:text-5xl font-pj">{t('home.testimonySection.title')}</h2>
+                        <h2 className="mt-4 text-3xl font-bold text-black dark:text-white sm:text-4xl xl:text-5xl font-pj">{t('home.testimonySection.title')}</h2>
                     </div>
 
                     <div className="relative mt-10 md:mt-24 md:order-2">

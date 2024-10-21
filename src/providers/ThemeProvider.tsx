@@ -8,10 +8,15 @@ export const useIsDarkModeContext = () => {
 }
 
 export const IsDarkModeProvider = ({children}: any) => {
-    const [isDarkMode, setDarkMode] = useLocalStorage("isDarkMode", true);
+    const [darkMode, setDarkMode] = useLocalStorage("darkMode", true)
+
+    const toggleDarkMode = () => {
+        setDarkMode(!darkMode)
+        document.body.classList.toggle("dark")
+    }
 
     return(
-        <IsDarkModeContext.Provider value={{isDarkMode, setDarkMode}}>
+        <IsDarkModeContext.Provider value={{darkMode, setDarkMode, toggleDarkMode}}>
             {children}
         </IsDarkModeContext.Provider>
     )

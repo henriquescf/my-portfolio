@@ -2,10 +2,10 @@ import { Slide, ToastContainer } from "react-toastify"
 import { HomePage } from "./pages/HomePage"
 import { MainHeader } from "./components/MainHeader"
 import { MainFooter } from "./components/MainFooter"
-import { useIsDarkModeContext } from "./providers/ThemeProvider"
 import global_pt from "./data/translations/global_pt.json"
 import global_en from "./data/translations/global_en.json"
 import i18next from "i18next"
+import { useIsDarkModeContext } from "./providers/ThemeProvider"
 
 function App() {
 
@@ -22,12 +22,11 @@ function App() {
     }
   })
 
-  const {isDarkMode} = useIsDarkModeContext() as any
-  document.body.setAttribute("data-theme", `${isDarkMode ? "dark" : "light"}`);
+  const {darkMode} = useIsDarkModeContext() as any
 
   return (
     <>
-      <ToastContainer position="bottom-right" transition={Slide} pauseOnHover={false} autoClose={5000}/>
+      <ToastContainer position="bottom-right" transition={Slide} pauseOnHover={false} autoClose={5000} theme={`${darkMode ? "dark" : "light"}`}/>
       <MainHeader/>
       <HomePage/>
       <MainFooter/>

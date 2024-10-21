@@ -3,22 +3,15 @@ export const skillsData: any = [
   'CSS',
   'Javascript',
   'Typescript',
+  'Python',
   'React',
   'Next JS',
   'Tailwind',
-  'MongoDB',
-  'MySQL',
   'PostgreSQL',
   'Git',
-  'AWS',
   'Bootstrap',
-  'Docker',
-  'Go',
   'Figma',
-  'Firebase',
   'MaterialUI',
-  'Nginx',
-  'Strapi'
 ]
 
 // AVAILABLE SKILLS

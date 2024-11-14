@@ -7,9 +7,8 @@ export const BannerSection = () => {
     const[ t ] = useTranslation("global")
 
     return(
-        <section className='grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8 my-12 text-black dark:text-white'>
-            <img src="main.svg" className="absolute top-[0rem] -z-10"/>
-            <div className='order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10 text-3xl gap-10'>
+        <section className='grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8 my-6 md:my-12 text-black dark:text-white'>
+            <div className='order-2 lg:order-1 flex flex-col items-start justify-center p-0 md:p-2 pb-10 lg:pt-10 text-2xl lg:text-3xl gap-10'>
                 <p className='font-extrabold'>
                     {t("home.bannerSection.welcome.introduction")}
                     <br/>
@@ -22,19 +21,19 @@ export const BannerSection = () => {
                     />
                 </p>
 
-                <p className='text-xl'>{t("home.bannerSection.welcome.description")}</p>
+                <p className='text-lg lg:text-xl'>{t("home.bannerSection.welcome.description")}</p>
 
                 <div className="flex items-center gap-5">
-                    <button className="px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white md:font-semibold main-button flex gap-2">
+                    <a className="px-3 lg:px-8 py-3 lg:py-4 text-center text-xs lg:text-sm font-medium uppercase tracking-wider text-white lg:font-semibold main-button flex gap-2" href="#contact-section">
                         <span>{t("home.bannerSection.welcome.b1")}</span>
                         <RiContactsFill size={16} className='mt-[0.125rem]'/>
-                    </button>
+                    </a>
 
-                    <button className="px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white  md:font-semibold main-button flex gap-2">
+                    <a className="px-3 lg:px-8 py-3 lg:py-4 text-center text-xs lg:text-sm font-medium uppercase tracking-wider text-white  lg:font-semibold main-button flex gap-2" href='/src/assets/files/curriculodev_henriquesiqueira.pdf' target='_blank'>
                         <span>{t("home.bannerSection.welcome.b2")}</span>
                         <MdDownload size={16} className='mt-[0.125rem]'/>
-                    </button>
-          </div>
+                    </a>
+                </div>
             </div>
 
             <div className='order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]'>
@@ -52,7 +51,7 @@ export const BannerSection = () => {
                 </div>
 
                 <div className='overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8'>
-                    <code className='font-mono text-xs md:text-sm lg:text-base'>
+                    <code className='font-mono text-xs lg:text-sm'>
                         <p>
                             <span className='mr-2 text-pink-500'>const</span>
                             <span className='mr-2 text-white'>coder</span>
@@ -82,11 +81,13 @@ export const BannerSection = () => {
                             <span className="text-gray-400">', '</span>
                             <span className="text-amber-300">Prisma</span>
                             <span className="text-gray-400">', '</span>
+                            <span className="text-amber-300">PostgreSQL</span>
+                            <span className="text-gray-400">', '</span>
                             <span className="text-amber-300">Python</span>
                             <span className="text-gray-400">', '</span>
                             <span className="text-amber-300">Django</span>
                             <span className="text-gray-400">', '</span>
-                            <span className="text-amber-300">Tailwind</span>
+                            <span className="text-amber-300">TailwindCSS</span>
                             <span className="text-gray-400">{`'],`}</span>
                         </p>
 

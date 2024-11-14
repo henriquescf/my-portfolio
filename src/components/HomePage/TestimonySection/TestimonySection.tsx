@@ -15,12 +15,12 @@ export const TestimonySection = () => {
                         <h2 className="mt-4 text-3xl font-bold text-black dark:text-white sm:text-4xl xl:text-5xl font-pj">{t('home.testimonySection.title')}</h2>
                     </div>
 
-                    <div className="relative mt-10 md:mt-24 md:order-2">
-                        <div className="absolute -inset-x-1 inset-y-16 md:-inset-x-2 md:-inset-y-6">
+                    <div className="relative mt-10 lg:mt-24 lg:order-2 ">
+                        <div className="absolute -inset-x-1 inset-y-16 lg:-inset-x-2 lg:-inset-y-6">
                             <div className="w-full h-full max-w-5xl mx-auto rounded-3xl opacity-30 blur-lg filter" style={{background: "linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)"}}></div>
                         </div>
 
-                        <div className="relative grid max-w-lg grid-cols-1 gap-6 mx-auto md:max-w-none lg:gap-10 md:grid-cols-3">
+                        <div className="relative grid max-w-lg grid-cols-1 gap-6 mx-auto lg:max-w-none lg:gap-10 lg:grid-cols-3">
                             {
                             // @ts-ignore
                             testimonies.map(testimony => (

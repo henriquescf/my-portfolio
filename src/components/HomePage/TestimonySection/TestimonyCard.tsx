@@ -7,15 +7,15 @@ export const TestimonyCard = ({description, author, job, image}: any) => {
                 <div className="flex-1">
                     <TestimonyStars/>
                     <blockquote className="flex-1 mt-8">
-                        <p className="text-lg leading-relaxed text-gray-900 font-pj">{description}</p>
+                        <p className="text-sm lg:text-lg leading-relaxed text-gray-900">{description}</p>
                     </blockquote>
                 </div>
 
                 <div className="flex items-center mt-8">
                     <img className="object-cover rounded-full w-11 h-11" src={image} alt="author-img" />
                     <div className="ml-4">
-                        <p className="text-base font-bold text-gray-900 font-pj">{author}</p>
-                        <p className="mt-0.5 text-sm font-pj text-gray-600">{job}</p>
+                        <p className="text-sm lg:text-base font-bold text-gray-900">{author}</p>
+                        <p className="mt-0.5 text-xs lg:text-sm text-gray-600">{job}</p>
                     </div>
                 </div>
             </div>

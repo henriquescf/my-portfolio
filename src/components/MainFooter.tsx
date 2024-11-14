@@ -13,7 +13,7 @@ export const MainFooter = () => {
                 <div className="flex justify-center -z-40">
                     <div className="absolute top-0 h-[1px] w-1/2  bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
                 </div>
-            <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="flex flex-col lg:flex-row items-center justify-between gap-4 lg:gap-0">
                 <p className="text-sm">{t('footer.description')} <a target="_blank" href="https://www.linkedin.com/in/henrique-siqueira-9ba862186/" className="text-[#16f2b3]">Henrique Siqueira</a>
                 </p>
                 <div className="flex items-center gap-5">

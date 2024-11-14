@@ -5,6 +5,8 @@ import './assets/styles/reset.scss'
 import './assets/styles/global.scss'
 import './assets/styles/extra.scss'
 import './assets/styles/glows.scss'
+import './assets/styles/hamburger.scss'
+import './assets/styles/swiper.scss'
 import 'react-toastify/dist/ReactToastify.css'
 import 'swiper/css';
 import 'swiper/css/navigation';

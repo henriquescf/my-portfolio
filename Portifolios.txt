@@ -1,9 +1,6 @@
 observações:
 
-conferir mobile version toda
-ajeitar botao de subir scroll pro inicio no mobile q n ta aparecendo
-ajeitar projetos (upar o da fashionstore e corrigir/verificar o código dos outros, tirar links da liber por exemplo)
-kenzie/harvard/rural?
-fazer curriculo/upar no site
+ajeitar menu mobile (hamburger)
+ajeitar liber (excels etc pra ficticios)
 utilizar .dev (www.xxx.dev)
 teste lighthouse https://developer.chrome.com/docs/lighthouse/overview?hl=pt-br

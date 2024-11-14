@@ -12,7 +12,7 @@
         "bannerSection": {
             "welcome": {
                 "introduction": "Olá, eu sou Henrique Siqueira",
-                "description": "Um desenvolvedor apaixonado, tenho experiência no desenvolvimento web completo e em aplicações mobile.",
+                "description": "Um desenvolvedor com experiência no desenvolvimento web completo e em aplicações mobile.",
                 "b1": "ME CONTATE",
                 "b2": "CURRÍCULO"
             },
@@ -40,21 +40,21 @@
             "experienceData": [
                 {
                     "id": 1,
-                    "title": "Front End I PT",
-                    "company": "Teton Private Ltd.",
-                    "duration": "(Jan 2022 - Present)"
+                    "title": "CS50's Programação Web com Python e Javascript",
+                    "company": "Universidade de Harvard",
+                    "duration": "(Maio 2024 - Presente)"
                 },
                 {
                     "id": 2,
-                    "title": "FULL STACK DEVELOPER PT",
-                    "company": "Fiverr (freelance)",
-                    "duration": "(Jun 2021 - Jan 2022)"
+                    "title": "Curso FullStack e Monitoria de ensino",
+                    "company": "Kenzie Academy Brasil",
+                    "duration": "(Maio 2023 - Maio 2024)"
                 },
                 {
                     "id": 3,
-                    "title": "SELF EMPLOYED PT",
-                    "company": "Code and building something everyday.",
-                    "duration": "(Jan 2018 - Present)"
+                    "title": "PROJETOS AUTÔNOMOS",
+                    "company": "Códigos freelance e projetos pessoais constantes",
+                    "duration": "(Presente)"
                 }
             ]
         },
@@ -76,51 +76,51 @@
                 },
                 {
                     "id": 1,
-                    "image": "/src/assets/projects/burger.jpg",
-                    "title": "Hamburgueria: Cardápio Digital",
-                    "description": "Cardápio Digital de hamburgueria, responsivo e com carrinho. Frontend criado com base em HTML/Javascript/SCSS.",
-                    "link": "https://hamburgueria-app.vercel.app/"
+                    "image": "/src/assets/projects/fashionstore.jpg",
+                    "title": "Projeto Freelance: Fashion Store",
+                    "description": "Loja de moda, responsiva e com carrinho de compras. Fullstack React e com sistema de login/cadastro.",
+                    "link": "https://fashionstore-vert.vercel.app/"
                 },
                 {
                     "id": 2,
-                    "image": "/src/assets/projects/hub.avif",
-                    "title": "HUB: Dashboard com sistema de login via API",
-                    "description": "Sistema de login e dashboard. Backend em Express para API e HTML/Javascript/SCSS para o frontend.",
-                    "link": "https://kenziehub-blush.vercel.app/"
-                },
-                {
-                    "id": 3,
-                    "image": "/src/assets/projects/carshop.jpg",
-                    "title": "API/Prisma: Catálogo de Carros com PRISMA",
-                    "description": "API de catálogo carros para uma concessionária. Criado com base em backend com EXPRESS e PRISMA.",
-                    "link": "https://github.com/henriquescf/api-catalogo-carros"
-                },
-                {
-                    "id": 4,
-                    "image": "/src/assets/projects/fashionstore.jpg",
-                    "title": "Projeto Freelance: Fashion Store",
-                    "description": "Loja de moda, responsivo e com carrinho. Frontend elaborado com HTML/Javascript/SCSS.",
-                    "link": "https://github.com/Kenzie-Academy-Brasil-Developers/m3_s7_entrega_fashion-store-henriquesiqueira--"
-                },
-                {
-                    "id": 5,
                     "image": "/src/assets/projects/portfolio.jpg",
                     "title": "Projeto Pessoal: Portfólio Desenvolvedor",
                     "description": "Meu portfólio, responsivo. Frontend elaborado com HTML/Typescript/React/TailwindCSS dentre outras ferramentas.",
                     "link": "https://github.com/henriquescf/my-portfolio"
                 },
                 {
+                    "id": 3,
+                    "image": "/src/assets/projects/burger.jpg",
+                    "title": "Hamburgueria: Cardápio Digital",
+                    "description": "Cardápio Digital de hamburgueria, responsivo e com carrinho. Frontend criado com base em HTML/Javascript/SCSS.",
+                    "link": "https://hamburgueria-app.vercel.app/"
+                },
+                {
+                    "id": 4,
+                    "image": "/src/assets/projects/hub.avif",
+                    "title": "HUB: Dashboard com sistema de login via API",
+                    "description": "Sistema de login e dashboard. Backend em Express para API e HTML/Javascript/SCSS para o frontend.",
+                    "link": "https://kenziehub-blush.vercel.app/"
+                },
+                {
+                    "id": 5,
+                    "image": "/src/assets/projects/carshop.jpg",
+                    "title": "API/Prisma: Catálogo de Carros com PRISMA",
+                    "description": "API de catálogo carros para uma concessionária. Criado com base em backend com EXPRESS e PRISMA.",
+                    "link": "https://github.com/henriquescf/api-catalogo-carros"
+                },
+                {
                     "id": 6,
                     "image": "/src/assets/projects/codegif.gif",
                     "title": "Conheça todos os meus projetos",
-                    "description": "Github com meus projetos disponíveis para publicidade.",
+                    "description": "Github com todos os meus projetos públicos.",
                     "link": "https://github.com/henriquescf"
                 }
               ]
         },
 
         "testimonySection": {
-            "title": "O que falam sobre mim",
+            "title": "O que dizem sobre mim",
             "testimonyData": [
                 {
                     "id": 1,

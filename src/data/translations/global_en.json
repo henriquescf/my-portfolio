@@ -12,7 +12,7 @@
         "bannerSection": {
             "welcome": {
                 "introduction": "Hello, i'm Henrique Siqueira",
-                "description": "A passionate developer having experience of building full web and mobile applications.",
+                "description": "A developer having experience of building full web and mobile applications.",
                 "b1": "CONTACT ME",
                 "b2": "GET RESUME"
             },
@@ -39,21 +39,21 @@
             "experienceData": [
                 {
                     "id": 1,
-                    "title": "Front End I ENG",
-                    "company": "Teton Private Ltd.",
-                    "duration": "(Jan 2022 - Present)"
+                    "title": "CS50's Web Programming with Python and JavaScript",
+                    "company": "Harvard University",
+                    "duration": "(May 2024 - Present)"
                 },
                 {
                     "id": 2,
-                    "title": "FULL STACK DEVELOPER ENG",
-                    "company": "Fiverr (freelance)",
-                    "duration": "(Jun 2021 - Jan 2022)"
+                    "title": "Fullstack course and teaching assistant",
+                    "company": "Kenzie Academy Brasil",
+                    "duration": "(May 2023 - May 2024)"
                 },
                 {
                     "id": 3,
-                    "title": "SELF EMPLOYED ENG",
-                    "company": "Code and building something everyday.",
-                    "duration": "(Jan 2018 - Present)"
+                    "title": "Self-Employed",
+                    "company": "Freelance coding and constant personal projects",
+                    "duration": "(Present)"
                 }
             ]
         },
@@ -75,38 +75,38 @@
                 },
                 {
                     "id": 1,
+                    "image": "/src/assets/projects/fashionstore.jpg",
+                    "title": "Freelance Project: Fashion Store",
+                    "description": "Fashion store, responsive and with shopping cart. Fullstack React with login/register system.",
+                    "link": "https://fashionstore-vert.vercel.app/"
+                },
+                {
+                    "id": 2,
+                    "image": "/src/assets/projects/portfolio.webp",
+                    "title": "Personal Project: Portfolio",
+                    "description": "My portfolio, responsive. Frontend developed with HTML/Typescript/React/TailwindCSS among other tools.",
+                    "link": "https://github.com/henriquescf/my-portfolio"
+                },
+                {
+                    "id": 3,
                     "image": "/src/assets/projects/burger.jpg",
                     "title": "Burger Restaurant: Digital Menu",
                     "description": "Responsive digital burger menu with shopping cart. Frontend created based on HTML/Javascript/SCSS.",
                     "link": "https://hamburgueria-app.vercel.app/"
                 },
                 {
-                    "id": 2,
+                    "id": 4,
                     "image": "/src/assets/projects/hub.avif",
                     "title": "HUB: Dashboard with login system via API",
                     "description": "Login and dashboard system. Backend in Express for API and HTML/Javascript/SCSS for the frontend.",
                     "link": "https://kenziehub-blush.vercel.app/"
                 },
                 {
-                    "id": 3,
+                    "id": 5,
                     "image": "/src/assets/projects/carshop.jpg",
                     "title": "API/Prisma: Car Catalog with PRISMA",
                     "description": "Car catalog API for a CarShop. Built on backend with EXPRESS and PRISMA.",
                     "link": "https://github.com/henriquescf/api-catalogo-carros"
-                },
-                {
-                    "id": 4,
-                    "image": "/src/assets/projects/fashionstore.jpg",
-                    "title": "Freelance Project: Fashion Store",
-                    "description": "Fashion store, responsive and with shopping cart. Frontend developed with HTML/Javascript/SCSS.",
-                    "link": "https://github.com/Kenzie-Academy-Brasil-Developers/m3_s7_entrega_fashion-store-henriquesiqueira--"
-                },
-                {
-                    "id": 5,
-                    "image": "/src/assets/projects/portfolio.webp",
-                    "title": "Personal Project: Portfolio",
-                    "description": "My portfolio, responsive. Frontend developed with HTML/Typescript/React/TailwindCSS among other tools.",
-                    "link": "https://github.com/henriquescf/my-portfolio"
                 },
                 {
                     "id": 6,

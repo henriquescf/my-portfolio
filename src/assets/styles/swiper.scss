@@ -1,0 +1,23 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    max-width: 72rem;
+    padding-bottom: 3.75rem !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    padding-bottom: 3.75rem !important;
+    @apply text-[#1a1443] dark:text-white pb-[3.75rem] #{!important};
+
+    &::after{
+        @apply hidden md:block #{!important};
+    }
+}
+
+.swiper-pagination-bullet, .swiper-pagination-bullet-active{
+    @apply bg-[#1a1443] dark:bg-white #{!important};
+}
+
+.swiper-pagination-bullets{
+    @apply bottom-auto md:bottom-2 #{!important};
+}

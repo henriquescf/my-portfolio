@@ -3,6 +3,7 @@ import { skillsData } from "../../data/skills-data.ts";
 import { skillsImage } from "../../data/skills-image.ts";
 import Marquee from "react-fast-marquee";
 
+
 export const SkillsSection = () => {
 
   const [ t ] = useTranslation("global")

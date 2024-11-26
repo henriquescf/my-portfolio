@@ -1,6 +1,6 @@
 observações:
 
-ajeitar menu mobile (hamburger)
+conferir links
 ajeitar liber (excels etc pra ficticios)
 utilizar .dev (www.xxx.dev)
 teste lighthouse https://developer.chrome.com/docs/lighthouse/overview?hl=pt-br

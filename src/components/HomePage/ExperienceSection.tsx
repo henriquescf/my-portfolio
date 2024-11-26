@@ -10,7 +10,6 @@ export const ExperienceSection = () => {
   const[ t ] = useTranslation("global")
 
   const experiences = t('home.experienceSection.experienceData', { returnObjects: true })
-
   return (
     <section id="experience-section" className="relative z-50 md:border-t md:border-[#25213b] my-6 lg:my-12">
       <img

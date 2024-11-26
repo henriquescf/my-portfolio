@@ -88,6 +88,8 @@ export const BannerSection = () => {
                             <span className="text-amber-300">Django</span>
                             <span className="text-gray-400">', '</span>
                             <span className="text-amber-300">TailwindCSS</span>
+                            <span className="text-gray-400">', '</span>
+                            <span className="text-amber-300">WordPress</span>
                             <span className="text-gray-400">{`'],`}</span>
                         </p>
 

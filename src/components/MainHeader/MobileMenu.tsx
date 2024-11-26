@@ -1,4 +1,3 @@
-import Hamburger from "hamburger-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FaHome } from "react-icons/fa";
 import { FaBook } from "react-icons/fa";

@@ -49,34 +49,34 @@ export const MobileMenu = ({darkMode, toggleDarkMode, setLanguagePt, toggleLangu
                             
                             <nav className="flex flex-col *:pl-1 *:text-[1.375rem] *:flex *:items-center gap-4 mt-12">
                                 <motion.li initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{type: "spring", stiffness: 260, damping: 70, delay: 0.1}} className="w-auto p-[0.08rem] rounded-xl ml-2 gap-3">
-                                    <FaHome color="#DD710F"/>
-                                    <a href="#about-section">{t("header.a1")}</a>
+                                    <FaHome color={`${darkMode ? '#16f2b3' : 'black'}`}/>
+                                    <a href="#about-section" onClick={() => setOpen(false)}>{t("header.a1")}</a>
                                 </motion.li>
 
                                 <motion.li initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{type: "spring", stiffness: 260, damping: 70, delay: 0.2}} className="w-auto p-[0.08rem] rounded-xl ml-2 flex items-center gap-3">
-                                    <SiStyleshare color="#DD710F"/>
-                                    <a href="#experience-section">{t("header.a2")}</a>
+                                    <SiStyleshare color={`${darkMode ? '#16f2b3' : 'black'}`}/>
+                                    <a href="#experience-section" onClick={() => setOpen(false)}>{t("header.a2")}</a>
                                 </motion.li>
 
                                 <motion.li initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{type: "spring", stiffness: 260, damping: 70, delay: 0.3}} className="w-auto p-[0.08rem] rounded-xl ml-2 gap-3">
-                                    <FaBook color="#DD710F"/>
-                                    <a href="#skills-section">{t("header.a3")}</a>
+                                    <FaBook color={`${darkMode ? '#16f2b3' : 'black'}`}/>
+                                    <a href="#skills-section" onClick={() => setOpen(false)}>{t("header.a3")}</a>
                                 </motion.li>
 
                                 <motion.li initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{type: "spring", stiffness: 260, damping: 70, delay: 0.3}} className="w-auto p-[0.08rem] rounded-xl ml-2 gap-3">
-                                    <FaBook color="#DD710F"/>
-                                    <a href="#projects-section">{t("header.a4")}</a>
+                                    <FaBook color={`${darkMode ? '#16f2b3' : 'black'}`}/>
+                                    <a href="#projects-section" onClick={() => setOpen(false)}>{t("header.a4")}</a>
                                 </motion.li>
 
                                 <motion.li initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{type: "spring", stiffness: 260, damping: 70, delay: 0.3}} className="w-auto p-[0.08rem] rounded-xl ml-2 gap-3">
-                                    <FaBook color="#DD710F"/>
-                                    <a href="#testimony-section">{t("header.a5")}</a>
+                                    <FaBook color={`${darkMode ? '#16f2b3' : 'black'}`}/>
+                                    <a href="#testimony-section" onClick={() => setOpen(false)}>{t("header.a5")}</a>
                                 </motion.li>
 
 
-                                <motion.li initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{type: "spring", stiffness: 260, damping: 70, delay: 0.4}} className="w-[90%] p-[0.08rem] rounded-xl ml-2 bg-[linear-gradient(90deg,_hsla(29,_87%,_46%,_1)_5%,_hsla(0,_0%,_100%,_1)_100%)] gap-3">
-                                    <MdPlayLesson color="white"/>
-                                    <a href="#contact-section">{t("header.a6")}</a>
+                                <motion.li initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{type: "spring", stiffness: 260, damping: 70, delay: 0.4}} className="w-[90%] p-[0.08rem] rounded-xl ml-2 gap-3">
+                                    <MdPlayLesson color={`${darkMode ? '#16f2b3' : 'black'}`}/>
+                                    <a href="#contact-section" onClick={() => setOpen(false)}>{t("header.a6")}</a>
                                 </motion.li>
                             </nav>
                         </motion.div>

@@ -29,7 +29,7 @@ export const BannerSection = () => {
                         <RiContactsFill size={16} className='mt-[0.125rem]'/>
                     </a>
 
-                    <a className="px-3 lg:px-8 py-3 lg:py-4 text-center text-xs lg:text-sm font-medium uppercase tracking-wider text-white  lg:font-semibold main-button flex gap-2" href='/src/assets/files/curriculodev_henriquesiqueira.pdf' target='_blank'>
+                    <a className="px-3 lg:px-8 py-3 lg:py-4 text-center text-xs lg:text-sm font-medium uppercase tracking-wider text-white  lg:font-semibold main-button flex gap-2" href='/assets/files/curriculodev_henriquesiqueira.pdf' target='_blank'>
                         <span>{t("home.bannerSection.welcome.b2")}</span>
                         <MdDownload size={16} className='mt-[0.125rem]'/>
                     </a>

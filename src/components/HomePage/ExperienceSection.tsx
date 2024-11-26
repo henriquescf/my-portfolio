@@ -1,7 +1,7 @@
 import { BsPersonWorkspace } from "react-icons/bs";
-import { AnimationLottie } from "./../../extra/lottie/AnimationLottie.tsx";
+import { AnimationLottie } from "../../extra/lottie/AnimationLottie.tsx";
 import { GlowCard } from '../../extra/GlowCard.js';
-import experience from './../../extra/lottie/code.json';
+import experience from '../../extra/lottie/code.json';
 import { useTranslation } from "react-i18next";
 
 

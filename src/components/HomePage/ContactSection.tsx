@@ -3,7 +3,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import { RiErrorWarningFill } from "react-icons/ri";
 import { toast } from "react-toastify"
-import { contactUsSheet } from "./../../services/contactUsSheet.tsx";
+import { contactUsSheet } from "../../services/contactUsSheet.tsx";
 import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
 import { FaStackOverflow } from "react-icons/fa";

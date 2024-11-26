@@ -69,49 +69,49 @@
             "projectsData": [
                 {
                     "id": 0,
-                    "image": "/src/assets/projects/idiomas.jpg",
+                    "image": "./src/assets/projects/idiomas.jpg",
                     "title": "Projeto Freelance: Curso de Idiomas",
                     "description": "Curso de línguas, responsivo. Frontend elaborado com TypeScript/React/TailwindCSS e fidedigno a projeto figma.",
                     "link": "https://liber-app-silk.vercel.app/"
                 },
                 {
                     "id": 1,
-                    "image": "/src/assets/projects/fashionstore.jpg",
+                    "image": "./src/assets/projects/fashionstore.jpg",
                     "title": "Projeto Freelance: Fashion Store",
                     "description": "Loja de moda, responsiva e com carrinho de compras. Fullstack React e com sistema de login/cadastro.",
                     "link": "https://fashionstore-vert.vercel.app/"
                 },
                 {
                     "id": 2,
-                    "image": "/src/assets/projects/portfolio.jpg",
+                    "image": "./src/assets/projects/portfolio.jpg",
                     "title": "Projeto Pessoal: Portfólio Desenvolvedor",
                     "description": "Meu portfólio, responsivo. Frontend elaborado com HTML/Typescript/React/TailwindCSS dentre outras ferramentas.",
                     "link": "https://github.com/henriquescf/my-portfolio"
                 },
                 {
                     "id": 3,
-                    "image": "/src/assets/projects/burger.jpg",
+                    "image": "./src/assets/projects/burger.jpg",
                     "title": "Hamburgueria: Cardápio Digital",
                     "description": "Cardápio Digital de hamburgueria, responsivo e com carrinho. Frontend criado com base em HTML/Javascript/SCSS.",
                     "link": "https://hamburgueria-app.vercel.app/"
                 },
                 {
                     "id": 4,
-                    "image": "/src/assets/projects/hub.avif",
+                    "image": "./src/assets/projects/hub.avif",
                     "title": "HUB: Dashboard com sistema de login via API",
                     "description": "Sistema de login e dashboard. Backend em Express para API e HTML/Javascript/SCSS para o frontend.",
                     "link": "https://kenziehub-blush.vercel.app/"
                 },
                 {
                     "id": 5,
-                    "image": "/src/assets/projects/carshop.jpg",
+                    "image": "./src/assets/projects/carshop.jpg",
                     "title": "API/Prisma: Catálogo de Carros com PRISMA",
                     "description": "API de catálogo carros para uma concessionária. Criado com base em backend com EXPRESS e PRISMA.",
                     "link": "https://github.com/henriquescf/api-catalogo-carros"
                 },
                 {
                     "id": 6,
-                    "image": "/src/assets/projects/codegif.gif",
+                    "image": "./src/assets/projects/codegif.gif",
                     "title": "Conheça todos os meus projetos",
                     "description": "Github com todos os meus projetos públicos.",
                     "link": "https://github.com/henriquescf"

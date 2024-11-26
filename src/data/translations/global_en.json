@@ -75,42 +75,42 @@
                 },
                 {
                     "id": 1,
-                    "image": "/src/assets/projects/fashionstore.jpg",
+                    "image": "./src/assets/projects/fashionstore.jpg",
                     "title": "Freelance Project: Fashion Store",
                     "description": "Fashion store, responsive and with shopping cart. Fullstack React with login/register system.",
                     "link": "https://fashionstore-vert.vercel.app/"
                 },
                 {
                     "id": 2,
-                    "image": "/src/assets/projects/portfolio.webp",
+                    "image": "./src/assets/projects/portfolio.webp",
                     "title": "Personal Project: Portfolio",
                     "description": "My portfolio, responsive. Frontend developed with HTML/Typescript/React/TailwindCSS among other tools.",
                     "link": "https://github.com/henriquescf/my-portfolio"
                 },
                 {
                     "id": 3,
-                    "image": "/src/assets/projects/burger.jpg",
+                    "image": "./src/assets/projects/burger.jpg",
                     "title": "Burger Restaurant: Digital Menu",
                     "description": "Responsive digital burger menu with shopping cart. Frontend created based on HTML/Javascript/SCSS.",
                     "link": "https://hamburgueria-app.vercel.app/"
                 },
                 {
                     "id": 4,
-                    "image": "/src/assets/projects/hub.avif",
+                    "image": "./src/assets/projects/hub.avif",
                     "title": "HUB: Dashboard with login system via API",
                     "description": "Login and dashboard system. Backend in Express for API and HTML/Javascript/SCSS for the frontend.",
                     "link": "https://kenziehub-blush.vercel.app/"
                 },
                 {
                     "id": 5,
-                    "image": "/src/assets/projects/carshop.jpg",
+                    "image": "./src/assets/projects/carshop.jpg",
                     "title": "API/Prisma: Car Catalog with PRISMA",
                     "description": "Car catalog API for a CarShop. Built on backend with EXPRESS and PRISMA.",
                     "link": "https://github.com/henriquescf/api-catalogo-carros"
                 },
                 {
                     "id": 6,
-                    "image": "/src/assets/projects/codegif.gif",
+                    "image": "./src/assets/projects/codegif.gif",
                     "title": "Discover all my projects",
                     "description": "xd",
                     "link": "https://github.com/henriquescf"

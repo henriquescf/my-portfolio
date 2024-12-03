@@ -3,15 +3,11 @@ import { FaHome } from "react-icons/fa";
 import { FaBook } from "react-icons/fa";
 import { SiStyleshare } from "react-icons/si";
 import { MdPlayLesson } from "react-icons/md";
-import { useEffect, useRef } from "react";
-import { useClickAway } from "react-use";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { DarkModeSwitch } from "react-toggle-dark-mode";
 
 export const MobileMenu = ({darkMode, toggleDarkMode, setLanguagePt, toggleLanguage, setOpen, isOpen}: any) => {
-
-    const ref = useRef(null);
-    useClickAway(ref, () => setOpen(false));
 
     useEffect(() => {
         const backdrop = document.querySelector(".backdrop")
@@ -31,10 +27,9 @@ export const MobileMenu = ({darkMode, toggleDarkMode, setLanguagePt, toggleLangu
     return(
         <>
             <div className="lg:hidden blur-except flex items-center flex-col">
-                
                 <AnimatePresence>
                     {isOpen && (
-                        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.2 }} className="shadow-4xl right-0 top-0 dark:bg-[#0d1224] bg-white text-black dark:text-white w-[72%] min-h-full fixed pl-1">
+                        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} transition={{ duration: 0.2 }} className="shadow-4xl right-0 top-0 dark:bg-[#0d1224] bg-white text-black dark:text-white w-[80%] min-h-full fixed pl-1">
                         <div className="flex z-[9] relative top-6 pl-3 justify-between items-center border-b-2 pb-6">
                             <div className="flex flex-col gap-2">
                                 <span className="text-xl lg:text-3xl font-black text-black dark:text-[#16f2b3] lg:w-auto">Henrique Siqueira</span>
@@ -45,8 +40,7 @@ export const MobileMenu = ({darkMode, toggleDarkMode, setLanguagePt, toggleLangu
                                 </div>
                             </div>
                         </div>
-                            
-                            
+
                             <nav className="flex flex-col *:pl-1 *:text-[1.375rem] *:flex *:items-center gap-4 mt-12">
                                 <motion.li initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{type: "spring", stiffness: 260, damping: 70, delay: 0.1}} className="w-auto p-[0.08rem] rounded-xl ml-2 gap-3">
                                     <FaHome color={`${darkMode ? '#16f2b3' : 'black'}`}/>
@@ -72,7 +66,6 @@ export const MobileMenu = ({darkMode, toggleDarkMode, setLanguagePt, toggleLangu
                                     <FaBook color={`${darkMode ? '#16f2b3' : 'black'}`}/>
                                     <a href="#testimony-section" onClick={() => setOpen(false)}>{t("header.a5")}</a>
                                 </motion.li>
-
 
                                 <motion.li initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{type: "spring", stiffness: 260, damping: 70, delay: 0.4}} className="w-[90%] p-[0.08rem] rounded-xl ml-2 gap-3">
                                     <MdPlayLesson color={`${darkMode ? '#16f2b3' : 'black'}`}/>

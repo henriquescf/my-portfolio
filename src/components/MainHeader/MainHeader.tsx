@@ -30,11 +30,11 @@ export const MainHeader = () => {
             <DesktopMenu {...{darkMode, toggleDarkMode}}/>
             <MobileMenu {...{darkMode, toggleDarkMode, setLanguagePt, toggleLanguage, isOpen, setOpen}}/>
 
-            <div className='flex lg:hidden z-[9999]'>
-                <Hamburger toggled={isOpen} toggle={setOpen} size={32} color={darkMode ? "white" : "black"}/>
+            <div className='flex lg:hidden z-[9]'>
+                <Hamburger toggled={isOpen} toggle={setOpen} size={30} color={darkMode ? "white" : "black"}/>
             </div>
         </header>
-        <div className="backdrop"></div>
+        <div className="backdrop" onClick={() => setOpen(false)}></div>
         </>
 
     )
